@@ -1,0 +1,29 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.env/
+
+# Large generated RAG data
+rag_data/ocr/
+rag_data/chunks/
+rag_data/embeddings/
+rag_data/vectorstore/
+rag_data/logs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large vector/index files
+*.npz
+*.index
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# HuggingFace cache
+.cache/
+huggingface/
