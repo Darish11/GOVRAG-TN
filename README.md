@@ -167,7 +167,8 @@ nDCG@10	0.489
 
 ## Generated Response
 
-![Response](docs/screenshots/GUI_with_answered_query.png.png)
+![Response](docs/screenshots/GUI_with_answered_query.png)
+
 
 ---
 
