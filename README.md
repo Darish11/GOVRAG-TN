@@ -90,7 +90,7 @@ Only representative sample documents are included in this repository.
 ```
 
 # Methodology
-'''
+```
 The GOVRAG-TN pipeline consists of the following stages:
 
 OCR-based document extraction
@@ -148,11 +148,11 @@ Recall@10	0.60
 Recall@20	0.64
 MRR	0.471
 nDCG@10	0.489
-'''
+```
 
 
 # Screenshots
-'''
+
 ## Chatbot Interface
 
 ![GUI](docs/screenshots/GUI-evidence.png)
@@ -180,11 +180,11 @@ structure-aware chunking
 temporal reasoning
 multi-document policy aggregation
 citation-grounded response generation
+```
 # Research Paper
 ```
 
 📄 [Read the GOVRAG-TN Research Paper](docs/GOVRAG.pdf)
-
 ```
 # Future Scope
 ```
