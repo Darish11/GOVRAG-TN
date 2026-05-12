@@ -70,3 +70,121 @@ GOVRAG-TN
 ├── requirements.txt
 ├── LICENSE
 └── .gitignore
+
+Dataset
+
+The dataset consists of scanned Tamil Nadu Government Orders collected from the official Tamil Nadu Government portal:
+
+https://www.tn.gov.in/go_view/deptlist.php
+
+The corpus contains:
+
+bilingual administrative documents
+scanned PDFs
+department-wise Government Orders
+amendments and policy notifications
+
+Only representative sample documents are included in this repository.
+
+Methodology
+
+The GOVRAG-TN pipeline consists of the following stages:
+
+OCR-based document extraction
+Text cleaning and normalization
+Metadata extraction
+Clause-aware chunking
+Multilingual embedding generation
+FAISS vector indexing
+Hybrid retrieval and reranking
+Multi-GO reasoning
+Citation-grounded response generation
+Technologies Used
+Component	Technology
+Programming Language	Python
+OCR Engine	Tesseract OCR
+Embedding Model	multilingual-e5-large
+Vector Search	FAISS
+Lexical Retrieval	BM25
+Generation Model	Qwen2.5 (7B)
+Deployment	Ollama
+Interface	Streamlit
+Installation
+Clone Repository
+git clone https://github.com/YOUR_USERNAME/GOVRAG-TN.git
+Install Dependencies
+pip install -r requirements.txt
+Running the System
+Start the Chatbot Interface
+streamlit run src/ui/chatbot.py
+Example Query
+What are the agriculture subsidy schemes introduced after 2020?
+Example Output
+
+The system:
+
+retrieves relevant Government Orders
+identifies supporting clauses
+performs grounded generation
+provides citation-aware responses
+Evaluation Metrics
+
+The framework was evaluated using:
+
+Recall@K
+Precision@K
+MRR
+nDCG
+GO Recall
+Clause Citation Accuracy
+Hallucination Rate
+Sample Retrieval Performance
+Metric	Score
+Recall@5	0.52
+Recall@10	0.60
+Recall@20	0.64
+MRR	0.471
+nDCG@10	0.489
+Screenshots
+
+# Screenshots
+
+## Chatbot Interface
+
+![GUI](docs/screenshots/GUI-evidence.png)
+
+---
+
+## Sample Query
+
+![Query](docs/screenshots/GUI-query.png)
+
+---
+
+## Generated Response
+
+![Response](docs/screenshots/GUI_with_answered_query.png.png)
+
+---
+
+
+
+The key contribution of GOVRAG-TN lies in adapting Retrieval-Augmented Generation for governance-oriented document interpretation through:
+
+structure-aware chunking
+temporal reasoning
+multi-document policy aggregation
+citation-grounded response generation
+Research Paper
+
+
+docs/paper.pdf
+
+Future Scope
+
+Potential future extensions include:
+
+graph-based policy reasoning
+multilingual expansion
+amendment dependency tracking
+deployment across broader governance datasets
