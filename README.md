@@ -70,9 +70,11 @@ GOVRAG-TN
 ├── requirements.txt
 ├── LICENSE
 └── .gitignore
+```
 
-Dataset
 
+# Dataset
+```
 The dataset consists of scanned Tamil Nadu Government Orders collected from the official Tamil Nadu Government portal:
 
 https://www.tn.gov.in/go_view/deptlist.php
@@ -85,9 +87,10 @@ department-wise Government Orders
 amendments and policy notifications
 
 Only representative sample documents are included in this repository.
+```
 
-Methodology
-
+# Methodology
+'''
 The GOVRAG-TN pipeline consists of the following stages:
 
 OCR-based document extraction
@@ -145,10 +148,11 @@ Recall@10	0.60
 Recall@20	0.64
 MRR	0.471
 nDCG@10	0.489
-Screenshots
+'''
+
 
 # Screenshots
-
+'''
 ## Chatbot Interface
 
 ![GUI](docs/screenshots/GUI-evidence.png)
@@ -167,7 +171,7 @@ Screenshots
 
 ---
 
-
+'''
 
 The key contribution of GOVRAG-TN lies in adapting Retrieval-Augmented Generation for governance-oriented document interpretation through:
 
