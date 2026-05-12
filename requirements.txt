@@ -1,0 +1,17 @@
+numpy
+pandas
+matplotlib
+streamlit
+faiss-cpu
+sentence-transformers
+transformers
+torch
+scikit-learn
+rank-bm25
+rapidfuzz
+pymupdf
+pytesseract
+pdf2image
+Pillow
+ollama
+tqdm
