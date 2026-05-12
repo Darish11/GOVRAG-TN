@@ -172,7 +172,7 @@ nDCG@10	0.489
 
 ---
 
-'''
+
 
 The key contribution of GOVRAG-TN lies in adapting Retrieval-Augmented Generation for governance-oriented document interpretation through:
 
@@ -180,16 +180,17 @@ structure-aware chunking
 temporal reasoning
 multi-document policy aggregation
 citation-grounded response generation
-Research Paper
+# Research Paper
+```
 
-
-docs/paper.pdf
-
-Future Scope
-
+[Access Research Paper]docs/GOVRAG.pdf
+```
+# Future Scope
+```
 Potential future extensions include:
 
 graph-based policy reasoning
 multilingual expansion
 amendment dependency tracking
 deployment across broader governance datasets
+```
