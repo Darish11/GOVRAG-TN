@@ -183,7 +183,8 @@ citation-grounded response generation
 # Research Paper
 ```
 
-[Access Research Paper]docs/GOVRAG.pdf
+[Access Research Paper](docs/GOVRAG.pdf)
+
 ```
 # Future Scope
 ```
