@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+
+venv/
+.env/
+
+rag_data/ocr/
+rag_data/chunks/
+rag_data/embeddings/
+rag_data/vectorstore/
+rag_data/logs/
+
+.ipynb_checkpoints/
+
+*.npz
+*.index
