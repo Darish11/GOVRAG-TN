@@ -180,18 +180,18 @@ structure-aware chunking
 temporal reasoning
 multi-document policy aggregation
 citation-grounded response generation
-```
+
+
 # Research Paper
-```
 
 📄 [Read the GOVRAG-TN Research Paper](docs/GOVRAG.pdf)
-```
+
+
 # Future Scope
-```
+
 Potential future extensions include:
 
 graph-based policy reasoning
 multilingual expansion
 amendment dependency tracking
 deployment across broader governance datasets
-```
